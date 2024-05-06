@@ -1,0 +1,84 @@
+
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #111; 
+    color: #eee; 
+    padding: 20px;
+}
+
+.calculadora {
+    background-color: #222; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+    width: 350px;
+    margin: auto;
+}
+
+.calculadora h1 {
+    text-align: center;
+    color: #0ff; 
+}
+
+.calculadora form {
+    display: flex;
+    flex-direction: column;
+}
+
+.calculadora div {
+    margin-bottom: 15px;
+}
+
+.calculadora input,
+.calculadora select {
+    padding: 10px;
+    border: 2px solid #555; 
+    border-radius: 5px;
+    background-color: #333;
+    color: #eee;
+    font-size: 16px;
+}
+
+.calculadora button {
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0f0; 
+    color: #111;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+.calculadora button:hover {
+    background-color: #0c0; 
+}
+
+.resultado {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.historico {
+    margin-top: 20px;
+    border-top: 2px solid #555; 
+}
+
+.historico h2 {
+    color: #0ff;
+}
+
+.historico ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.historico li {
+    padding: 5px;
+    border-bottom: 1px solid #555;
+}
+
+.historico li:last-child {
+    border-bottom: none;
+}
